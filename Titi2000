@@ -1,0 +1,21 @@
+# import boto3
+# # Initialize the S3 client
+# s3_client = boto3.client('s3', region_name='us-east-1')
+
+# # Specify a unique bucket name
+# bucket_name = 'class8s3bucket'
+
+# # Create an S3 bucket
+# s3_client.create_bucket(Bucket=bucket_name)
+# print(f"S3 bucket '{bucket_name}' done")
+
+# print("S3 bucket job done.")
+
+# #To list an existing s3 bucket
+# import boto3
+# s3= boto3.client('s3')
+# response= s3.list_buckets()
+
+# print('Existing buckets:')
+# for bucket in response ['Buckets']:
+#     print(f'  {bucket["Name"]}')
